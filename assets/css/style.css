@@ -686,7 +686,8 @@ img {
   top:0px;
   width:100%;
   z-index:0;
-  background-color: #001C3D;
+  /* background-color: #001C3D; */
+  background-color: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -765,7 +766,7 @@ img {
 
 .main-header .logo-box{
   position: relative;
-  padding: 30px 0px;
+
 }
 
 
@@ -1679,7 +1680,7 @@ button.ltr {
 .main-footer .title-text{
   position: relative;
   display: block;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 50px;
   font-family: var(--secondary-font);
   color: #fff;
@@ -1711,7 +1712,7 @@ button.ltr {
 .main-footer .links-widget .links-list li a{
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   color: #fff;
   font-weight: 500;

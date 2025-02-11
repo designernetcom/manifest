@@ -9,7 +9,7 @@
 <title>Eventer - HTML 5 Template Preview</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<!-- <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"> -->
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -30,7 +30,40 @@
 <link href="assets/css/module-css/page-title.css" rel="stylesheet">
 <link href="assets/css/module-css/gallery.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<style>
+   /* Navigation Bar Styling */
 
+
+/* Logo Styling for Desktop */
+.logo-box img {
+    height: auto;
+    max-height: 160px; /* Ensures it fits in the navbar */
+    width: auto;
+    max-width: 200px; /* Adjust as needed */
+    object-fit: contain;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+
+    .logo-box img {
+        max-height: 150px; /* Adjust logo height for mobile */
+        max-width: 150px; /* Prevents oversizing */
+    }
+}
+
+/* Extra Small Screens (like small phones) */
+@media (max-width: 480px) {
+
+
+    .logo-box img {
+        max-height: 140px;
+        max-width: 120px;
+    }
+}
+
+</style>
 </head>
 
 
@@ -42,13 +75,14 @@
 
 
 
+   
         <!-- main header -->
         <header class="main-header header-style-two">
             <!-- header-lower -->
             <div class="header-lower">
                 <div class="auto-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.html"><img src="assets/images/mani-removebg-preview (1).png" height="100px" alt=""></a></figure>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -59,69 +93,41 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="#">Home</a>
+                                        <li class=" dropdown"><a href="index.html">Home</a>
+                                           
+                                        </li> 
+                                        <li class="dropdown"><a href="about.html">About</a>
+                                           
+                                        </li>
+                                        <li class="dropdown current"><a href="gallery.html">Gallery</a>
+                                           
+                                        </li>
+                                        <li class="dropdown"><a href="services.html">Services</a>
                                             <ul>
-                                                <li><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li><a href="index-3.html">Home Three</a></li>
-                                                <li><a href="index-4.html">Home Four</a></li>
-                                                <li><a href="index-onepage.html">OnePage Home</a></li>
-                                                <li class="dropdown"><a href="#">Header Style</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header Style One</a></li>
-                                                        <li><a href="index-3.html">Header Style Two</a></li>
-                                                    </ul>
-                                                </li>
+                                                
+                                                <li><a href="services.html">Venue Selection</a></li>
+                                                <li><a href="services.html">Wedding Planning</a></li>
+                                                <li><a href="services.html">Wedding Branding</a></li>
+                                                <li><a href="services.html">Artist & Entertainment</a></li>
+                                                <li><a href="services.html">Games & Fun Activities</a></li>
+                                                <li><a href="services.html">Event Entries & SFX</a></li>
+                                                <li><a href="services.html">Transportation & Logistics Management</a></li>
+                                                <li><a href="services.html">Giveaways</a></li>
+                                                <li><a href="services.html">Food & Beverage</a></li>
+                                               
                                             </ul>
                                         </li> 
-                                        <li class="dropdown"><a href="#">Events</a>
-                                            <ul>
-                                                <li><a href="event.html">Events Schedule</a></li>
-                                                <li><a href="event-details.html">Event Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="current dropdown"><a href="#">Pages</a>
-                                            <ul>
-                                                <li class="dropdown"><a href="#">Gallery</a>
-                                                    <ul>
-                                                        <li><a href="gallery.html">Events Gallery</a></li>
-                                                        <li><a href="gallery-2.html">Events Gallery With Text</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown"><a href="#">Speckers</a>
-                                                    <ul>
-                                                        <li><a href="specker.html">Event Speckers</a></li>
-                                                        <li><a href="specker-details.html">Specker Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about.html">About Event</a></li>
-                                                <li><a href="partner.html">Our Partners</a></li>
-                                                <li><a href="faq.html">Support & FAQ</a></li>
-                                                <li><a href="venue.html">Venue</a></li>
-                                                <li><a href="hotel.html">Hotel Room</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="search.html">Search Not found</a></li>
-                                                <li><a href="error.html">404</a></li>
-                                            </ul>
-                                        </li> 
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog Grid</a></li>
-                                                <li><a href="blog-2.html">Blog Standard</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
+                                     
                                         <li><a href="contact.html">Contact</a></li> 
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box mr_40"><a href="index-2.html" class="theme-btn btn-one">Purchase Ticket</a></div>
                             <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -133,7 +139,7 @@
                 <div class="auto-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                            <figure class="logo"><a href="index.html"><img src="assets/images/mani-removebg-preview (1).png" alt=""></a></figure>
                         </div>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
@@ -141,11 +147,10 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box mr_40"><a href="index-2.html" class="theme-btn btn-one">Purchase Ticket</a></div>
                             <ul class="social-links">
-                                <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -161,13 +166,13 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/mani-removebg-preview (1).png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li>Pune</li>
+                        <li><a href="tel:+8801682648101">7895499549</a></li>
                         <li><a href="mailto:info@example.com">info@example.com</a></li>
                     </ul>
                 </div>
@@ -186,7 +191,7 @@
 
         <!-- page-title -->
         <section class="page-title">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title-3.jpg);"></div>
+            <div class="bg-layer" ></div>
             <div class="pattern-layer">
                 <div class="pattern-1" style="background-image: url(assets/images/shape/shape-36.png);"></div>
                 <div class="pattern-2" style="background-image: url(assets/images/shape/shape-47.png);"></div>
@@ -196,9 +201,9 @@
                     <ul class="bread-crumb clearfix mb_20">
                         <li><a href="index.html"># Home</a></li>
                         <li>&nbsp;-&nbsp;</li>
-                        <li>Event Gallery</li>
+                        <li> Gallery</li>
                     </ul>
-                    <h1>Event Gallery</h1>
+                    <h1> Gallery</h1>
                 </div>
             </div>
         </section>
@@ -210,66 +215,66 @@
             <div class="auto-container">
                 <div class="sortable-masonry">
                     <div class="items-container row clearfix">
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all technology grocery hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all technology grocery hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-5.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_11.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all grocery technology material">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all grocery technology material">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-6.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest_events_company_profile_1.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-7.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_3 .jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all grocery hospital construction">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all grocery hospital construction">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-8.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_16.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-9.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_18.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-10.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_8.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-11.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_15.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column all construction hospital">
                             <div class="gallery-block-two">
                                 <div class="inner-box">
-                                    <figure class="image-box"><img src="assets/images/gallery/gallery-12.jpg" alt=""></figure>
+                                    <figure class="image-box"><img src="assets/images/photos/resize/Manifest events company profile_14.jpg" alt=""></figure>
                                     <div class="link"><a href="index-2.html"><i class="icon-25"></i></a></div>
                                 </div>
                             </div>
@@ -281,26 +286,22 @@
         <!-- gallery-style-two end -->
 
 
-        <!-- main-footer -->
-        <footer class="main-footer">
-            <div class="bg-layer" style="background-image: url(assets/images/background/footer-bg.jpg);"></div>
+      <footer class="main-footer">
+            <div class="bg-layer" ></div>
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-22.png);"></div>
             <div class="widget-section">
                 <div class="auto-container">
                     <div class="row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
-                                <p>Pellentesque quis scelerisque justo. the Aenean mauris justo, sagittis ornare felis ut, mattis pretium.</p>
-                                <h3>Social Media:</h3>
-                                <ul class="social-links">
-                                    <li><a href="index.html">facebook</a></li>
-                                    <li><a href="index.html">twitter</a></li>
-                                    <li><a href="index.html">linkedin</a></li>
-                                </ul>
+                        <!-- <div class="col-lg-3 col-md-6 col-sm-12 footer-column mb_20">
+                            <div class="footer-widget logo-widget ">
+                                <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-1.jpg"  alt=""></a></figure>
+                               
+                               
+                              
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                             
+                        </div> -->
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column offset-lg-1">
                             <div class="footer-widget links-widget">
                                 <span class="title-text">Quick Link</span>
                                 <div class="widget-content">
@@ -316,12 +317,12 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget newsletter-widget">
-                                <span class="title-text">News Letter</span>
+                                <span class="title-text">Address</span>
                                 <div class="widget-content">
-                                    <p>Pellentesque quis scelerisque justo. the Aenean mauris justo, sagittis ornare felis ut, mattis pretium.</p>
+                              
                                     <div class="location-box mb_35">
                                         <h5>Address :</h5>
-                                        <span><img src="assets/images/icons/icon-5.png" alt=""> 8502 Preston Rd. Inglewood, Maine 98380</span>
+                                        <span><img src="assets/images/icons/icon-5.png" alt=""> 8502 Pre Rd. Inglewood, Pune</span>
                                     </div>
                                     <div class="form-inner">
                                         <form method="post" action="https://azim.hostlin.com/Eventer/contact.html">
@@ -341,25 +342,25 @@
                                     <ul class="image-list clearfix">
                                         <li>
                                             <figure class="image">
-                                                <img src="assets/images/resource/footer-1.jpg" alt="">
+                                                <img src="assets/images/photos/resize/Manifest events company profile_11.jpg" alt="">
                                                 <a href="index.html"><i class="icon-13"></i></a>
                                             </figure>
                                         </li>
                                         <li>
                                             <figure class="image">
-                                                <img src="assets/images/resource/footer-2.jpg" alt="">
+                                                <img src="assets/images/photos/resize/Manifest events company profile_13.jpg" alt="">
                                                 <a href="index.html"><i class="icon-13"></i></a>
                                             </figure>
                                         </li>
                                         <li>
                                             <figure class="image">
-                                                <img src="assets/images/resource/footer-3.jpg" alt="">
+                                                <img src="assets/images/photos/resize/Manifest events company profile_3 .jpg" alt="">
                                                 <a href="index.html"><i class="icon-13"></i></a>
                                             </figure>
                                         </li>
                                         <li>
                                             <figure class="image">
-                                                <img src="assets/images/resource/footer-4.jpg" alt="">
+                                                <img src="assets/images/photos/resize/Manifest_events_company_profile_1.jpg" alt="">
                                                 <a href="index.html"><i class="icon-13"></i></a>
                                             </figure>
                                         </li>
@@ -384,11 +385,10 @@
             </div>
             <div class="footer-bottom centred">
                 <div class="auto-container">
-                    <div class="copyright"><p>&copy; 2024 <a href="index.html">Eventer</a>, All Rights Reserved</p></div>
+                    <div class="copyright"><p>&copy; 2025 <a href="index.html">Manifest</a>, All Rights Reserved</p></div>
                 </div>
             </div>
         </footer>
-        <!-- main-footer end -->
 
 
         <!--Scroll to top-->
@@ -424,5 +424,4 @@
 
 </body><!-- End of .page_wrapper -->
 
-<!-- Mirrored from azim.hostlin.com/Eventer/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Feb 2025 09:05:27 GMT -->
 </html>
