@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Manifest</title>
+<title>Wedding planning</title>
 
 <!-- Fav Icon -->
 <!-- <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"> -->
@@ -28,7 +28,9 @@
 <link href="assets/css/rtl.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/module-css/page-title.css" rel="stylesheet">
-<link href="assets/css/module-css/contact.css" rel="stylesheet">
+<link href="assets/css/module-css/news.css" rel="stylesheet">
+<link href="assets/css/module-css/blog-details.css" rel="stylesheet">
+<link href="assets/css/module-css/sidebar.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
 
 </head>
@@ -40,9 +42,20 @@
     <div class="boxed_wrapper ltr">
 
 
+    
 
+
+        <!-- page-direction -->
+        <!-- <div class="page_direction">
+            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
+            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
+        </div> -->
+        <!-- page-direction end -->
+
+
+         
         <!-- main header -->
-        <header class="main-header header-style-two">
+        <header class="main-header header-style-two" >
             <!-- header-lower -->
             <div class="header-lower">
                 <div class="auto-container">
@@ -55,17 +68,17 @@
                                 <i class="icon-bar"></i>
                                 <i class="icon-bar"></i>
                             </div>
-                            <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                          <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li class=" dropdown"><a href="index.html">Home</a>
                                            
                                         </li> 
-                                        <li class="dropdown"><a href="about.html">About</a>
+                                        <li class=" dropdown"><a href="about.html">About</a>
                                            
                                         </li>
-                                       
-                                        <li class="dropdown "><a href="services.html">Services</a>
+                                        
+                                         <li class="dropdown current"><a href="services.html">Services</a>
                                             <ul>
                                                 <li><a href="corporate-event.html">Corporate Event</a></li>
                                                 <li><a href="venue-seletion.html">Venue Selection</a></li>
@@ -81,11 +94,11 @@
                                                
                                             </ul>
                                         </li> 
-                                          <li class="dropdown"><a href="gallery.html">Gallery</a>
+                                         <li class="dropdown"><a href="gallery.html">Gallery</a>
                                            
                                         </li>
                                      
-                                        <li class="current"><a href="contact.html">Contact</a></li> 
+                                        <li><a href="contact.html">Contact</a></li> 
                                     </ul>
                                 </div>
                             </nav>
@@ -156,6 +169,7 @@
         </div><!-- End Mobile Menu -->
 
 
+
         <!-- page-title -->
         <section class="page-title">
             <div class="bg-layer" ></div>
@@ -163,93 +177,126 @@
                 <div class="pattern-1" style="background-image: url(assets/images/shape/shape-36.png);"></div>
                 <div class="pattern-2" style="background-image: url(assets/images/shape/shape-47.png);"></div>
             </div>
-          
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1></h1>
+                </div>
+            </div>
         </section>
         <!-- page-title end -->
 
 
-        <!-- contact-section -->
-        <section class="contact-section pt_20  pb_140">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-49.png);"></div>
+        <!-- sidebar-page-container -->
+        <section class="sidebar-page-container pt_20 pb_140">
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="auto-container">
                 <div class="title-inner mb_60">
                     <div class="sec-title centred mb_20">
                         <!-- <span class="sub-title"># About Us</span> -->
-                        <h2>Contact Us</h2>
+                        <h2>Event Entries & SFX</h2>
                     </div>
                 </div>
                 </div>
-                    <div class="col-lg-9 col-md-12 col-sm-12 form-column">
-                        <div class="form-inner">
-                            <form method="post" action="https://azim.hostlin.com/Eventer/sendemail.php" id="contact-form" class="default-form"> 
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="Name*" required="">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="email" name="email" placeholder="Email*" required="">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="phone" required="" placeholder="Your Phone*">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="subject" required="" placeholder="Subject">
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <textarea name="message" placeholder="Enter your comment here"></textarea>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                        <button class="theme-btn btn-one" type="submit" name="submit-form">Send Now</button>
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="blog-sidebar default-sidebar">
+                       
+                            <div class="sidebar-widget category-widget mb_40">
+                                <div class="widget-title mb_30">
+                                    <h3>Services</h3>
+                                </div>
+                                <div class="widget-content">
+                                   <ul class="category-list clearfix">
+                                        <li><a href="corporate-event.html">Corporate Event</a></li>
+                                        <li><a href="venue-seletion.html">Venue Selection</a></li>
+                                        
+                                        <li><a href="weddingg-planning.html">Wedding Planning</a></li>
+                                        <li><a href="wedding-branding.html">Wedding Branding</a></li>
+                                        <li><a href="artist-entertainment.html"   >Artist & Entertainment</a></li>
+                                        <li><a href="games-fun-activities.html">Games & Fun Activities</a></li>
+                                        <li><a href="intimate-décor.html">Intimate Décor</a></li>
+                                        <li><a href="event-entries-sfx.html" style="color:#a52282;">Event Entries & SFX</a></li>
+                                        <li><a href="transportation-logistics-management.html">Transportation & Logistics Management</a></li>
+                                        <li><a href="giveaways.html">Giveaways</a></li>
+                                       
+                                     <li><a href="food-beverage.html">Food & Beverage</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                         
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="blog-details-content">
+                            <div class="news-block-one">
+                        
+                            </div>
+                            <div class="content-one">
+                                <div class="image-box">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 image-column" >
+                                            <figure class="image" ><img src="assets/images/photos/Manifest events company profile_14.jpg" alt=""></figure>
+                                        </div>
+                                        <!-- <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                            <figure class="image"><img src="assets/images/photos/Manifest events company profile_18.jpg" alt=""></figure>
+                                        </div> -->
                                     </div>
                                 </div>
-                            </form>
+                                <div class="text-box">
+                                    <h4 class="mb_30 mb_20">Grand Wedding Entries & Special Effects (SFX) 🎇💃✨</h4> 
+                                    <p>
+Make a breathtaking entrance and elevate your wedding with stunning special effects (SFX) for a magical experience!<br>
+
+👑 Bride & Groom Entry Ideas<br>
+Royal Entry: Arrive in a decorated carriage, luxury car, or vintage vehicle.<br>
+Fairy-Tale Walk: Bride enters under a floral arch with soft fog effects.<br>
+Dancing Entry: The couple enters with their squad, dancing to a favorite song.<br>
+LED Pathway: A glowing LED aisle that lights up as the couple walks in.<br>
+Fireworks Entry: Sparkler fountains for a dramatic and grand entrance.<br>
+🎭 Bridal Party & Guest Entries<br>
+Flower Shower: Guests shower petals as the bride walks down the aisle.<br>
+Umbrella or Lantern Walk: The bridal party enters with beautifully decorated umbrellas or lanterns.<br>
+Live Music Escort: A violinist, pianist, or live band playing a romantic tune.<br>
+🎆 Special Effects (SFX) for a Magical Experience<br>
+Cold Pyro & Sparkler Fountains: Indoor fireworks that create a grand effect.<br>
+Fog & Dry Ice: Soft mist covering the dance floor during the first dance.<br>
+Confetti Showers: Colorful confetti drops at the grand entry or first kiss.<br>
+Bubble or Snow Effect: A dreamy, whimsical touch for your celebration.<br>
+LED Dance Floor: A mesmerizing, color-changing floor for the reception. </p>
+                                </div>
+                            </div>
+                            <blockquote>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                                <span>By Eventer</span>
+                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</h3>
+                            </blockquote>
+                            <div class="content-two pb_30">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                        <figure class="image-box mb_30"><img src="assets/images/news/news-12.jpg" alt=""></figure>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                                        <div class="text-box mb_30">
+                                            <p>Quisque vitae volutpat leo. Cras scelerisque dignissim diam, nec auctor nisl pretium eu. Sed vulputate leo ac porta eleifend. Pellentesque semper convallis lacus, non tincidunt purus viverra sed. Nam sed efficitur enim, nec elementum odio. Curabitur eu eros convallis, luctus eros quis, fringilla erat. Aliquam finibus augue dui, a auctor enim porttitor sed. Donec in feugiat purus, posuere posuere leo. Integer at ipsum quis magna rhoncus semper. Morbi nisl est, tristique vitae tristique a, pulvinar eu eros. Duis vel metus tortor. Nam egestas sed dolor id mattis. Maecenas lobortis urna id enim fringilla venenatis. Vestibulum posuere.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 info-column">
-                        <div class="info-inner">
-                            <div class="single-item mb_60">
-                                <h6>Be Creative Our Team</h6>
-                                <ul class="info-list clearfix">
-                                    <li><i class="icon-27"></i><a href="mailto:example@templatepath.com">example@manifest.com</a></li>
-                                    <li><i class="icon-28"></i><a href="tel:7895499549">7895499549</a></li>
-                                </ul>
-                            </div>
-                            <div class="single-item mb_60">
-                                <h6>Let's Call or Email</h6>
-                                <ul class="info-list clearfix">
-                                    <li><i class="icon-27"></i><a href="mailto:example@info.com">example@info.com</a></li>
-                                    <li><i class="icon-28"></i><a href="tel:7895499549">7895499549</a></li>
-                                </ul>
-                            </div>
-                            <div class="single-item">
-                                <h6>Let's Call or Email </h6>
-                                <ul class="info-list clearfix">
-                                    <li><i class="icon-29"></i><a href="contact.html">@templathPath</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
-        <!-- contact-section end -->
+        <!-- sidebar-page-container end -->
 
 
-
-
-        <!-- google-map-section -->
-        <section class="google-map-section">
-            <div class="map-inner">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230138.36476916316!2d73.6981553041223!3d18.52454504095413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1739192103216!5m2!1sen!2sin" width="600" height="535" frameborder="0" style="border:0; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-               
-            </div>
-        </section>
-        <!-- google-map-section end -->
-
-<footer class="main-footer">
-            <div class="bg-layer" ></div>
+        <!-- main-footer -->
+         <footer class="main-footer">
+            <div class="bg-layer" style="background-image: url(assets/images/background/footer-bg.jpg);"></div>
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-22.png);"></div>
             <div class="widget-section">
                 <div class="auto-container">
@@ -351,6 +398,7 @@
                 </div>
             </div>
         </footer>
+        <!-- main-footer end -->
 
 
         <!--Scroll to top-->
