@@ -642,7 +642,7 @@ img {
 .sec-title h2{
   position: relative;
   display: block;
-  font-size: 50px;
+  font-size: 32px;
   line-height: 60px;
 }
 
@@ -687,7 +687,7 @@ img {
   width:100%;
   z-index:0;
   /* background-color: #001C3D; */
-  background-color: #000;
+  background-color: #001C3D;
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -2176,6 +2176,37 @@ button.ltr {
 }
 
 
+
+
+
+/* Logo Styling for Desktop */
+.logo-box img {
+    height: auto;
+    max-height: 200px; /* Ensures it fits in the navbar */
+    width: auto;
+    max-width: 200px; /* Adjust as needed */
+    object-fit: contain;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+
+    .logo-box img {
+        max-height: 150px; /* Adjust logo height for mobile */
+        max-width: 150px; /* Prevents oversizing */
+    }
+}
+
+/* Extra Small Screens (like small phones) */
+@media (max-width: 480px) {
+
+
+    .logo-box img {
+        max-height: 140px;
+        max-width: 120px;
+    }
+}
 
 
 
