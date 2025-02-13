@@ -17,6 +17,7 @@
   .menu-area .mobile-nav-toggler {
     display: block;
     padding: 10px;
+    top:-60px;
   }
 
   .mobile-menu.home-3 .navigation li > a:before{
